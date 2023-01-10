@@ -171,6 +171,7 @@ h3{
     padding: 7px 25px;
     border-radius: 30px;
     transition: .4s;
+    color: white;
     text-decoration: none;
 }
 .email form{
