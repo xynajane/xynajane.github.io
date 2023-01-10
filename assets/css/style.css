@@ -62,6 +62,9 @@ nav.header-navigation a {
     color: #ffffff;
     display: inline-block;
 }
+nav.header-navigation a:hover{
+    color: #f9004d;
+}
 
 /* Welcome Styles */
 .lets-start {
