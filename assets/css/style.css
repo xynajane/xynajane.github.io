@@ -538,12 +538,15 @@ section.skills-section .row {
     background-position: center;
     background-size: cover;
 }
+.school-container {
+    width: 100%;
+}
 section#mh-shots h3 {
     font-size: 55px;
 }
 
 section#mh-shots {
-    height: 320vh;
+    height: 220vh;
 }
 
 .church1 {
@@ -597,6 +600,9 @@ section#mh-shots {
     background-image: url(../images/School/church4.jpeg);
     background-position: center;
     background-size: cover;
+}
+.church-container {
+    width: 100%;
 }
 .fam1 {
     width: 20%;
