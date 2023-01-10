@@ -366,7 +366,7 @@ button:hover{
 }
 
 /* Education Styles */
-.education-header {
+.sub-header2 {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/ed1.webp);
@@ -377,7 +377,7 @@ button:hover{
     width: 103%;
     height: inherit;
 }
-.education-header h2 {
+.sub-header2 h2 {
     width: 100%;
     padding-top: 10%;
 }
@@ -651,7 +651,7 @@ section#mh-shots h3 {
     padding-top: 3%;
 }
 /* Contact Styles */
-.sub-header3 {
+.contact-header {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/con1.jpg);
