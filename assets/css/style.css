@@ -295,6 +295,9 @@ input[type=submit]{
 .sub-header h1 {
     padding: 13%;
 }
+header.about {
+    height: 10vh;
+}
 
 /* About Styles */
 .about{
