@@ -366,6 +366,106 @@ button:hover{
 }
 
 /* Education Styles */
+.sub-header2 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/ed1.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+.sub-header2 h2 {
+    width: 100%;
+    padding-top: 10%;
+}
+.educ img {
+    height: auto;
+    width: 300px;
+}
+.educ {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col1{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed2.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.col2{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed5.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: tramsform 0.5s;
+
+}
+.col3{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed6.jpeg);
+    background-position: right;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: 4s;
+}
+section.photos {
+    padding-left: 55px;
+    padding: 5%;
+}
+.educ-text {
+    width: 65%;
+    padding-left: 90px;
+}
+/* Skills Styles */
+section.skills-section h2 {
+    text-align: end;
+    padding-right: 145px;
+    padding-top: 40px;
+}
+section.skills-section {
+    background: rgb(226 225 227);
+    padding: 30px 10px 60px;
+    text-align: center;
+}
+section.skills-section .col {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+section.skills-section .row {
+    padding-top: 45px;
+}
 
 /* Shots Styles */
 .sub-header4 {
