@@ -1,0 +1,759 @@
+* {
+    margin: 0px;
+    padding: 0px;   
+    box-sizing: border-box;
+}
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background: fixed;
+    background-color: gray;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: gray;
+}
+.left img {
+    width: 100px;
+}
+.left {
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.right {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 70px;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 1378px;
+    margin: 0 auto;
+}
+header {
+    padding: 20px;
+    background-attachment: inherit;
+    background-size: cover;
+    padding-left: 0px;
+    padding-top: 0%;
+    height: 105vh;
+}
+.container nav.header-navigation {
+    width: 100%;
+    padding-left: 10%;
+}
+nav.header-navigation {
+    margin-top: 50px;
+}
+nav.header-navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+/* Welcome Styles */
+.lets-start {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/quote.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+.verse h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 110px;
+    letter-spacing: 40px;
+    padding: 10%;
+    padding-bottom: 0;
+    color: #fef6e9;
+    text-shadow: 4px 3px black;
+}
+.verse {
+    height: 110vh;
+    background-size: cover;
+}
+.verse p {
+    width: 100%;
+    text-align: center;
+}
+.verse h4{
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+/* Paragraph Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poiret+One&display=swap');
+
+p {
+    line-height: 30px;
+    font-size: 16px;
+}
+section.banner h1 {
+    color: cadetblue;
+    font-size: 50px;
+    margin-left: 12px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Banner Styles */
+.banner{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    width: 60%;
+    float: left;
+}
+.banner h2{
+    font-size: 16px;
+}
+.banner p {
+    color: #212121;
+    line-height: 22px;
+    width: 50%;
+}
+.banner span {
+    color: #fef6e9;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 55px;
+    margin: 20px 0px 20px;
+
+}
+h3{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.email a {
+    background-color: #f9004d;
+    border: 2px solid transparent;
+    padding: 7px 25px;
+    border-radius: 30px;
+    transition: .4s;
+    text-decoration: none;
+}
+.email form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.email form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+}
+.email form input:last-child {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+    padding-right: 78px;
+}
+input[type=submit]{
+    background-color: #f9004d;
+    color: white;
+}
+.btn {
+    padding-top: 2%;
+}
+.email form .start{ 
+    position: inherit;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+}
+.email form input[type="submit"]:hover{
+    background: transparent;
+    border: 2px solid #f9004d;
+    transform-origin: .4s;
+}
+.Start {
+    padding-top: 7%;
+    width: 1%;
+    padding-left: 75%;
+}
+.email a:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.last {
+    width: 50%;
+}
+.email {
+    transform: translateY(-11%);
+}
+
+.email form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.image {
+    width: 22%;
+    height: 80%;
+    position: absolute;
+    top: 155px;
+    bottom: 0;
+    right: 150px;
+}
+
+.image img {
+    height: 100%;
+    width: 110%;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.front img {
+    height: 75%;
+    width: 100%;
+}
+
+.back img {
+    height: 80%;
+    width: 175%;
+    padding-right: 50px;
+}
+
+.image:hover .back{
+    bottom: 40%;
+}
+
+.image:hover .image1{
+    left: 45%;
+}
+
+/* About Styles 2 */
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/Me3.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+.sub-header h1 {
+    padding: 13%;
+}
+
+/* About Styles */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: gray;
+    padding-top: inherit;
+}
+.about img{
+    height: auto;
+    width: 380px;
+}
+.about-text{
+    width: 550px;
+}
+.about-me{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: beige;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: beige;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.tal1{
+    width: 10%;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/pic1.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.tal2{
+    width: 22%;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/pic2.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+
+/* Education Styles */
+.sub-header2 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/ed1.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+.sub-header2 h2 {
+    width: 100%;
+    padding-top: 10%;
+}
+.educ img {
+    height: auto;
+    width: 300px;
+}
+.educ {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col1{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed2.jpg);
+    background-position: left;
+    background-size: cover;
+}
+.col2{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed5.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: tramsform 0.5s;
+
+}
+.col3{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(../images/ed6.jpeg);
+    background-position: right;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: 4s;
+}
+section.photos {
+    padding-left: 55px;
+    padding: 5%;
+}
+.educ-text {
+    width: 65%;
+    padding-left: 90px;
+}
+/* Skills Styles */
+section.skills-section h2 {
+    text-align: end;
+    padding-right: 145px;
+    padding-top: 40px;
+}
+section.skills-section {
+    background: rgb(226 225 227);
+    padding: 30px 10px 60px;
+    text-align: center;
+}
+section.skills-section .col {
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+}
+section.skills-section .row {
+    padding-top: 45px;
+}
+
+/* Shots Styles */
+.sub-header4 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/pic3.webp);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+.sub-header4 h2 {
+    width: 100%;
+    padding-top: 16%;
+}
+.school1 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/sch4.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.school2{
+    width: 28%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/sch3.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.school3 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/sch2.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.school4 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/sch1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+section#mh-shots h3 {
+    font-size: 55px;
+}
+
+section#mh-shots {
+    height: 320vh;
+}
+
+.church1 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/church1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.church2{
+    width: 28%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/church2.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.church3 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/church3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.church4 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/church4.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.fam1 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/fam1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.fam2{
+    width: 28%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/fam2.jpeg);
+    background-position: left;
+    background-size: cover;
+}
+.fam3 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/fam3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.fam4 {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    background-image: url(../images/School/fam4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section#mh-shots h3 {
+    padding-top: 3%;
+}
+/* Contact Styles */
+.sub-header3 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/con1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 103%;
+    height: inherit;
+}
+
+.sub-header3 h2 {
+    text-align: center;
+    width: 100%;
+    padding-top: 20%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.column input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.contact-section h2 {
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: #f9004d;
+}
+.contact-section .container {
+    border-radius: 5px;
+    background-color: #f2f2f2f2;
+    padding: 10px;
+}
+.container2 {
+    height: auto;
+    width: 35%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 15px;
+}
+.column {
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    float: right;
+    padding-right: 10%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+/* Footer Styles */
+section#contact {
+    background: url(../images/contact.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 760px;
+}
+
+footer, a {
+    color: #fff;
+}
+footer {
+    background: #1a1a1a;
+    padding: 40px;
+    text-align: center;
+}
+section.footer-1 {
+    margin-left: 75px;
+}   
+
+.footer-1 input[type="button"] {
+    margin-top: 0;
+    font-size: 11px;
+    padding: 15px 21px;
+    letter-spacing: 3px;
+}
+.social-media-icon {
+    margin-top: 15px;
+}
+.social-media-icon a {
+    font-size: 45px;
+}
+.social-media-icon a:hover {
+    color: gray  ;
+}
+.footer-1 input#email {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    width: 95%;
+    padding: 10px 0px;
+}
