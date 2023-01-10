@@ -483,7 +483,7 @@ section.skills-section .row {
     padding-top: 45px;
 }
 
-/* Shots Styles */
+/* Albums Styles */
 .sub-header4 {
     height: 50vh;
     width: 100%;
@@ -497,7 +497,8 @@ section.skills-section .row {
 }
 .sub-header4 h2 {
     width: 100%;
-    padding-top: 16%;
+    padding-top: 15%;
+    font-size: 100px;
 }
 .school1 {
     width: 20%;
@@ -684,12 +685,12 @@ section#mh-shots h3 {
     width: 103%;
     height: 100vh;
 }
-
-.sub-header3 h2 {
-    text-align: center;
+.contact-header h2 {
     width: 100%;
-    padding-top: 20%;
+    padding-top: 15%;
+    font-size: 100px;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
