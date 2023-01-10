@@ -46,7 +46,7 @@ header {
     background-size: cover;
     padding-left: 0px;
     padding-top: 0%;
-    height: 105vh;
+    height: 100vh;
 }
 .container nav.header-navigation {
     width: 100%;
@@ -76,7 +76,7 @@ nav.header-navigation a:hover{
     text-align: center;
     color: white;
     width: 103%;
-    height: inherit;
+    height: 100vh;
 }
 .verse h2 {
     width: 100%;
@@ -100,6 +100,15 @@ nav.header-navigation a:hover{
     width: 100%;
     text-align: center;
     font-style: italic;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    padding-bottom: 4%;
+    float: inherit;
 }
 /* Paragraph Styles */
 
@@ -131,7 +140,7 @@ h2 {
     text-transform: uppercase;
     font-size: 50px;
     width: 60%;
-    float: left;
+    float: inherit;
 }
 .banner h2{
     font-size: 16px;
@@ -148,6 +157,7 @@ h1{
     text-transform: uppercase;
     font-size: 55px;
     margin: 20px 0px 20px;
+    float: left;
 
 }
 h3{
@@ -246,14 +256,14 @@ input[type=submit]{
     width: 110%;
     position: absolute;
     left: 50%;
-    top: 10%;
+    top: -25%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 .front img {
-    height: 75%;
-    width: 100%;
+    height: 109%;
+    width: 125%;
 }
 
 .back img {
@@ -378,7 +388,10 @@ button:hover{
     text-align: center;
     color: white;
     width: 103%;
-    height: inherit;
+    height: 20vh;
+}
+header.educ {
+    height: 20vh;
 }
 .sub-header2 h2 {
     width: 100%;
@@ -480,7 +493,7 @@ section.skills-section .row {
     text-align: center;
     color: white;
     width: 103%;
-    height: inherit;
+    height: 100vh;
 }
 .sub-header4 h2 {
     width: 100%;
@@ -669,7 +682,7 @@ section#mh-shots h3 {
     text-align: center;
     color: white;
     width: 103%;
-    height: inherit;
+    height: 100vh;
 }
 
 .sub-header3 h2 {
@@ -766,3 +779,71 @@ section.footer-1 {
     width: 95%;
     padding: 10px 0px;
 }
+
+/* Bootstrap Styles */
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .container-fluid img {
+        height: auto;
+        width: 7%;
+    }
+
+    .about-me .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .about-me .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .about-me .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .about-me .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .about-me .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      ul.navbar-nav.me-auto.mb-2.mb-md-0 {
+        padding-left: 51%;
+        padding-top: 3.3%;
+    }
+    li.nav-item {
+        font-size: 17.5px;
+        text-decoration: none;
+        margin: 10px 20px;
+        color: white;
+        display: inline-block;
+    }
