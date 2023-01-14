@@ -67,6 +67,9 @@ nav.header-navigation a:hover{
 }
 
 /* Welcome Styles */
+header.about {
+    height: 0px;
+}
 .lets-start {
     height: 50vh;
     width: 100%;
@@ -76,7 +79,13 @@ nav.header-navigation a:hover{
     text-align: center;
     color: white;
     width: 103%;
-    height: 100vh;
+    height: auto;
+}
+header#start nav.header-navigation {
+    margin-top: 50px;
+    padding-top: 8.5px;
+    padding-right: 130px;
+    word-spacing: 4px;
 }
 .verse h2 {
     width: 100%;
@@ -84,6 +93,7 @@ nav.header-navigation a:hover{
     font-size: 110px;
     letter-spacing: 40px;
     padding: 10%;
+    padding-top: 27%;
     padding-bottom: 0;
     color: #fef6e9;
     text-shadow: 4px 3px black;
@@ -128,6 +138,33 @@ body{
 }
 
 
+/* Home BS */
+.px-3 {
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    padding: 20%;
+}
+main.px-3 h1 {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+    padding-bottom: 0;
+}
+main.px-3 h3 {
+    width: 100%;
+    text-align: left;
+    padding-left: 10%;
+}
+
+body {
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+main.px-3 form {
+    padding-left: 10%;
+    width: 32%;
+}
+
 
 /* Banner Styles */
 .banner{
@@ -165,7 +202,7 @@ h3{
     font-weight: 200;
     margin-bottom: 50px;
 }
-.email a {
+.lead a {
     background-color: #f9004d;
     border: 2px solid transparent;
     padding: 7px 25px;
@@ -174,12 +211,12 @@ h3{
     color: white;
     text-decoration: none;
 }
-.email form{
+.lead form{
     width: 380px;
     max-width: 100%;
     position: relative;
 }
-.email form input:first-child{
+.lead form input:first-child{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
@@ -187,7 +224,7 @@ h3{
     outline: none;
     border-radius: 30px;
 }
-.email form input:last-child {
+.lead form input:last-child {
     display: inline-block;
     width: 100%;
     border: 2px solid #f9004d;
@@ -202,7 +239,7 @@ input[type=submit]{
 .btn {
     padding-top: 2%;
 }
-.email form .start{ 
+.lead form .start{ 
     position: inherit;
     display: inline-block;
     outline: none;
@@ -215,7 +252,7 @@ input[type=submit]{
     top: 6px;
     right: 6px;
 }
-.email form input[type="submit"]:hover{
+.lead form input[type="submit"]:hover{
     background: transparent;
     border: 2px solid #f9004d;
     transform-origin: .4s;
@@ -223,9 +260,9 @@ input[type=submit]{
 .Start {
     padding-top: 7%;
     width: 1%;
-    padding-left: 75%;
+    padding-left: 72%;
 }
-.email a:hover{
+.lead a:hover{
     background-color: transparent;
     border: 2px solid #f9004d;
     cursor: pointer;
@@ -233,11 +270,11 @@ input[type=submit]{
 .last {
     width: 50%;
 }
-.email {
+.lead {
     transform: translateY(-11%);
 }
 
-.email form{
+.lead form{
     width: 380px;
     max-width: 100%;
     position: relative;
@@ -257,14 +294,14 @@ input[type=submit]{
     width: 110%;
     position: absolute;
     left: 50%;
-    top: -25%;
+    top: -2%;
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 .front img {
-    height: 109%;
-    width: 125%;
+    height: 85%;
+    width: 105%;
 }
 
 .back img {
@@ -281,131 +318,167 @@ input[type=submit]{
     left: 45%;
 }
 
-/* About Styles 2 */
-.sub-header {
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/Me3.jpeg);
-    background-position: center;
-    background-size: cover;
+
+} */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
     text-align: center;
-    color: white;
-    width: 103%;
-    height: inherit;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+        display: inline-block;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+/* About BS */
+.navbar-nav {
+    display: flex;
+    -ms-flex-direction: column;
+    list-style: none;
 }
-.sub-header h1 {
-    padding: 13%;
+.container-fluid img {
+    width: 100px;
 }
-header.about {
-    height: 10vh;
-}
-body.about-me {
-    width: 80px;
-}
-body.about-me p {
-    color: black;
+<style>
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
-/* About Styles */
-.about{
-    width: 100%;
-    padding: 100px 0px;
-    background-color: gray;
-    padding-top: inherit;
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
 }
-.about img{
-    height: auto;
-    width: 380px;
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
-.about-text{
-    width: 550px;
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
 }
-.about-me{
-    width: 1400px;
-    max-width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
 }
-.about-text h2{
-    color: beige;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
 }
-.about-text h5{
-    color: beige;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
-.about-text p{
-    color: #fcfcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 16px;
-    margin-bottom: 45px;
+
+ul.navbar-nav.me-auto.mb-2.mb-md-0 {
+    padding-left: 65%;
+    flex-direction: unset;
 }
-button{
-    background-color: #f9004d;
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
+@media (min-width: 768px)
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
 }
-button:hover{
-    background-color: transparent;
-    border: 2px solid #f9004d;
-    cursor: pointer;
-}
-.tal1{
-    width: 10%;
-    height: 220px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    margin: 10px 15px;
-    background-image: url(../images/pic1.jpeg);
-    background-position: left;
-    background-size: cover;
-}
-.tal2{
-    width: 22%;
-    height: 220px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    margin: 10px 15px;
-    background-image: url(../images/pic2.jpeg);
-    background-position: left;
-    background-size: cover;
-}
-.tal3{
-    width: 22%;
-    height: 220px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    margin: 10px 15px;
-    background-image: url(../images/Me3.jpeg);
-    background-position: left;
-    background-size: cover;
-}
-p.lead {
-    width: 85%;
-    text-align: center;
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem!important;
 }
 
 /* Education Styles */
-.sub-header2 {
+main.start-section {
     height: 50vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/ed1.webp);
@@ -423,7 +496,12 @@ header.educ {
     width: 100%;
     padding-top: 10%;
 }
+
 .educ img {
+    height: auto;
+    width: 100px;
+}
+section.education img {
     height: auto;
     width: 300px;
 }
@@ -510,6 +588,12 @@ section.skills-section .row {
 }
 
 /* Albums Styles */
+.sub-header4 nav.header-navigation {
+    margin-top: 50px;
+    padding-top: 8.5px;
+    padding-right: 130px;
+    word-spacing: 4px;
+}
 .sub-header4 {
     height: 50vh;
     width: 100%;
@@ -523,7 +607,7 @@ section.skills-section .row {
 }
 .sub-header4 h2 {
     width: 100%;
-    padding-top: 15%;
+    padding-top: 35%;
     font-size: 100px;
 }
 .school1 {
@@ -700,6 +784,12 @@ section#mh-shots h3 {
     padding-top: 3%;
 }
 /* Contact Styles */
+.contact-header nav.header-navigation {
+    margin-top: 50px;
+    padding-top: 8.5px;
+    padding-right: 130px;
+    word-spacing: 4px;
+}
 .contact-header {
     height: 50vh;
     width: 100%;
@@ -713,7 +803,7 @@ section#mh-shots h3 {
 }
 .contact-header h2 {
     width: 100%;
-    padding-top: 15%;
+    padding-top: 35%;
     font-size: 100px;
 }
 
@@ -726,11 +816,13 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 .column input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: f9004d;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: .4s;
 }
 .contact-section h2 {
     width: 100%;
@@ -749,6 +841,9 @@ input[type=submit]:hover {
     float: left;
     padding-left: 5%;
     padding-top: 15px;
+}
+.container2 img {
+    padding-top: 55px;
 }
 .column {
     width: 50%;
@@ -774,6 +869,11 @@ section#contact {
 
 footer, a {
     color: #fff;
+}
+body.about-me footer {
+    margin-left: -180px;
+    width: 126%;
+    float: left;
 }
 footer {
     background: #1a1a1a;
@@ -807,70 +907,3 @@ section.footer-1 {
     padding: 10px 0px;
 }
 
-/* Bootstrap Styles */
-<style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      .container-fluid img {
-        height: auto;
-        width: 7%;
-    }
-
-    .about-me .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .about-me .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .about-me .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .about-me .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .about-me .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-      ul.navbar-nav.me-auto.mb-2.mb-md-0 {
-        padding-left: 51%;
-        padding-top: 3.3%;
-    }
-    li.nav-item {
-        font-size: 17.5px;
-        text-decoration: none;
-        margin: 10px 20px;
-        color: white;
-        display: inline-block;
-    }
